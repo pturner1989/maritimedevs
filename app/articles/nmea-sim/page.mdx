@@ -1,0 +1,39 @@
+# NMEA Simulator
+
+Developing or testing maritime software and found yourself stuck without a GPS signal? This simple simulator will broadcast valid NMEA sentences over UDP, using manual inputs or RTZ files.
+
+## What's This All About?
+
+NMEA 0183 is the language that many marine devices use to talk to each other. Our free simulator creates realistic GPS data and broadcasts it over your network, so your software thinks there's a real GPS receiver connected.
+
+The tool sends this data over UDP on port 10110, a common way to handle GPS data onboard commerical vessels, so any software that can read NMEA data from a UDP port can use it. Perfect for testing and development without needing to be out on the water.
+
+## Two Ways to Navigate
+
+**Manual Mode** Set your starting position anywhere in the world, pick a speed and direction, and off you go! Change course and speed while the simulation is running - perfect for testing how your software handles sudden maneuvers.
+
+**RTZ Route Mode** Load a standard RTZ route file, and watch your virtual vessel automatically follow the planned route, turning at waypoints on autopilot.
+
+## Uses
+
+**Software Testing**: If your software expects a GPS input, then this offers an easy way to test it.
+
+**Demo Magic**: Need to demo software at a conference or client meeting? Fire up the simulator and sail anywhere in the world, without leaving your desk.
+
+**Learning and Training**: Perfect for students learning about marine electronics or developers new to maritime software development.
+
+## Getting Started
+
+Download the tool, launch it, pick your mode, and hit start. Any software configured to read NMEA data from 127.0.0.1:10110 will immediately start receiving your simulated GPS feed. It's that simple!
+
+Whether you're building the next great navigation app or just trying to test a simple GPS logger, having reliable, controllable GPS data transforms development from a logistical headache into actual fun. Happy sailing! ⚓
+
+The software is available via GitHub, and the source code is available for anyone to inspect or modify.
+
+Downloads: [NMEA Simulator](https://github.com/pturner1989/nmea-sim/releases)
+
+GitHub: [NMEA Simulator GitHub](https://github.com/pturner1989/nmea-sim)
+
+---
+
+For support join our community on Slack.
