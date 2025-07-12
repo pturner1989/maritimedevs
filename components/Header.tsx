@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const links:{label:string, path:string}[] = [
-//    {label: 'Home', path:'/'},
+    {label: 'Home', path:'/'},
 //    {label: 'Useful Resources', path: '/resources'},
-//    {label: 'Guides & Articles', path: '/articles'}
+    {label: 'Useful Tools', path: '/articles'}
 ]
 
 export default function Header() {
