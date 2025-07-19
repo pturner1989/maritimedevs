@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Maritime Devs",
   description: "A community for anyone getting their hands dirty building software for maritime.",
+  icons: {
+    icon: "/appicon.png",
+  },
 };
 
 export default function RootLayout({
